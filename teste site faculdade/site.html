@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>teclado</title>
+    <link rel="stylesheet" href="csspiano.css">
+</head>
+
+<link rel="stylesheet" href="csspiano.css">
+
+<div>
+    <p>
+        <button id="notado">Dó</button>
+        <audio id="do"  src="do.mp3"></audio> <!--aqui fica o arquivo de som-->
+    </p>
+    <p>
+        <button id="notare">Ré</button>
+        <audio id="re"  src="re.mp3"></audio> <!--aqui fica o arquivo de som-->
+    </p>
+    <p>
+        <button id="notami">Mi</button>
+        <audio id="mi"  src="mi.mp3"></audio> <!--aqui fica o arquivo de som-->
+    </p>
+    <p>
+        <button id="notafa">Fa</button>
+        <audio id="fa"  src="fa.mp3"></audio> <!--aqui fica o arquivo de som-->
+    </p>
+    <p>
+        <button id="notasol">Sol</button>
+        <audio id="sol"  src="sol.mp3"></audio> <!--aqui fica o arquivo de som-->
+    </p>
+    <p>
+        <button id="notala">La</button>
+        <audio id="la"  src="la.mp3"></audio> <!--aqui fica o arquivo de som-->
+    </p>
+    <p>
+        <button id="notasi">Si</button>
+        <audio id="si"  src="si.mp3"></audio> <!--aqui fica o arquivo de som-->
+    </p>
+</div>
+<script>
+    document.getElementById("notado").addEventListener("click", function() {
+            let som = new Audio("assets/audio/do.mp3");
+// Reinicia o áudio caso já esteja tocando
+            som.play(); // Toca o som
+});
+document.getElementById("notare").addEventListener("click", function() {
+            let som = new Audio("assets/audio/re.mp3");
+            som.currentTime = 0;
+            som.play();
+});
+document.getElementById("notami").addEventListener("click", function() {
+            let som = new Audio("assets/audio/mi.mp3");
+            som.currentTime = 0;
+            som.play();
+});
+document.getElementById("notafa").addEventListener("click", function() {
+            let som = new Audio("assets/audio/fa.mp3");
+            som.currentTime = 0;
+            som.play();
+});
+document.getElementById("notasol").addEventListener("click", function() {
+            let som = new Audio("assets/audio/sol.mp3");
+            som.currentTime = 0;
+            som.play();
+});
+document.getElementById("notala").addEventListener("click", function() {
+            let som = new Audio("assets/audio/la.mp3");
+            som.currentTime = 0;
+            som.play();
+});
+document.getElementById("notasi").addEventListener("click", function() {
+            let som = new Audio("assets/audio/si.mp3");
+            som.currentTime = 0;
+            som.play();
+});
+</script>
+</html>

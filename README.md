@@ -1,4 +1,5 @@
-A simple virtual piano made with HTML and JavaScript, in progress for CSS styling integration.
+This is a test project for the Software Analysis and Development course.
+A simple virtual piano made with HTML and JavaScript, in progress for CSS styling integration. 
 
 Project Overview
 This is a basic virtual piano built using HTML and JavaScript, allowing users to play musical notes by clicking the keys.
